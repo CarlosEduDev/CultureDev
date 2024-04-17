@@ -1,6 +1,7 @@
 # CultureDev - rede social para devs
 É uma rede social para desenvolvedores/programadores que permite compartilhar idéias, projetos,etc. <br>
-Este projeto me permitiu reaprender conceitos, aprender novas coisas e aprimorei o que sei.
+Este projeto me permitiu reaprender conceitos, aprender novas coisas e aprimorei o que sei. Com isso, vou usar tudo o que sei em outros projetos.
+
 
 ## Tecnologias:
 - React.js - interface
