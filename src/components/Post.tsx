@@ -5,8 +5,24 @@ import { Avatar } from './Avatar'
 import { Comments } from './Comments'
 import styles from './Post.module.css'
 
+interface ContentItem {
+    type: string;
+    content: string;
+}
 
-export function Post(props:any){
+interface Author {
+    avatarUrl: string;
+    name: string;
+    role: string;
+}
+
+interface PostProps {
+    publishedAt: Date;
+    author: Author;
+    content: ContentItem[];
+}
+
+export function Post(props:PostProps){
 
     const publishedDateFormat = format(props.publishedAt, "d 'de' LLLL 'de' 2024 'às' HH:mm'h'", {
         locale: ptBR,
